@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background:url("snow.jpeg") top center;
+}
+
+h1 , h2 , p {
+    color: rgb(9, 192, 177);
+}
+
+p{
+    font-weight: bold;
+    display: inline-block;
+    width: 80%;
+}
+
+.main {
+    border: 5px solid green;
+    background-color: #fff;
+}
+
+.header {
+    border: 5px solid red;
+}
+
+.header h1 {
+    text-align: right;
+}
+
+.header h2 {
+    border: 5px solid orange;
+    text-align: right;
+}
+
+div h2 span {
+    border: 5px solid rgb(77, 0, 128);
+}
+
+div img {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    width: 13%;
+}
+
+.second , .third {
+    border: 5px solid blue;
+    background-color: #e8fbfb;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.text {
+    width: 86%;
+    display: inline-block;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
